@@ -51,6 +51,8 @@ public class LoginStepsDefinations {
 	public void user_is_navigated_to_home_page() {
 	  
 		login.appLogoDisplayed();
+		
+		System.out.println("I am on Home page ");
 	}
 
 	@And("close the browser")
